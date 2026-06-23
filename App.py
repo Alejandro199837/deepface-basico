@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template_string
-from Pro.analyzer import analyze_from_bytes
+from analyzer import analyze_from_bytes
 import traceback
 import json
 
